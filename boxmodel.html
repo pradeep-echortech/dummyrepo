@@ -3,13 +3,20 @@
 <head>
     <title>CSS-Boxmodel</title>
     <style>
-        .content
-        {
-            background-color: antiquewhite;
+        .margin
+        { 
             width: 50%;
             height: 50%;
-            padding: 25px;
+            padding: 50px;
+            border-style: solid;
+            position: absolute;
+        }
+        .border
+        {
+            background-color: lightgreen;
+            padding: 50px;
             position: relative;
+            border: 2px black;
             border-style: dotted;
         }
         .padding
@@ -20,22 +27,15 @@
             position: relative;
             border-style: solid;
         }
-        .border
+        .content
         {
-            background-color: lightgreen;
-            padding: 50px;
+            background-color: antiquewhite;
+            width: 50%;
+            height: 50%;
+            padding: 25px;
             position: relative;
-            border: 2px black;
             border-style: dotted;
         }
-        .margin
-        { 
-            
-            padding: 50px;
-            border-style: solid;
-            position: absolute;
-        }
-
     </style>
 </head>
 <body>
