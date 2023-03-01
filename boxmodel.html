@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS-Boxmodel</title>
+    <style>
+        .content
+        {
+            background-color: antiquewhite;
+            width: 50%;
+            height: 50%;
+            padding: 25px;
+            position: relative;
+            border-style: dotted;
+        }
+        .padding
+        {
+            background-color: aqua;
+            padding: 45px;
+            border: 2px black;
+            position: relative;
+            border-style: solid;
+        }
+        .border
+        {
+            background-color: lightgreen;
+            padding: 50px;
+            position: relative;
+            border: 2px black;
+            border-style: dotted;
+        }
+        .margin
+        { 
+            
+            padding: 50px;
+            border-style: solid;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="margin">
+        Margin
+        <div class="border">
+            Border
+            <div class="padding">
+                 Padding
+                  <div class="content">
+                    Content
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
