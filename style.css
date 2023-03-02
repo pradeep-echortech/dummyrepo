@@ -1,0 +1,23 @@
+.flex-container{
+display: flex;
+flex-wrap: wrap;
+font-size: 30px;
+text-align: center;
+}
+.flex-left{
+    background-color: darkcyan;
+    flex: 30%;
+}
+.flex-center{
+    background-color: #ababab;
+    flex: 40%;
+}
+.flex-right{
+    background-color: lightblue;
+    flex: 30%;
+}
+@media (max-width:800px) {
+    .flex-left,.flex-center,.flex-right  {
+        flex: 100%;
+    }
+}
