@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    flex-shrink: 1;
+    margin-top: -25px;
+
+}
+img{
+    display: inline;
+    padding: 15px;
+} 
+.contents{
+    position: sticky ;
+    top: 0;
+    background-color: rgb(234, 232, 232);
+    display: flex;
+    width: 18%;
+    justify-content: space-between;
+    /* align-content: flex; */
+    height:fit-content
+    /* align-items: stretch;
+   
+    flex-shrink: 0;
+    flex-basis: content; */
+}
+.main{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column ; 
+    padding: 50px;
+   width: 75%;
+    
+}
+.saint{
+    margin-top: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    float: right;
+    align-items: stretch;
+    flex-grow: 0;
+    height: fit-content;
+    max-width: 17%;
+    align-items: center;
+}
+table{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    
+}
+.image{
+    float: inline-start;
+}
+.search{
+   
+    height: 30px;
+   
+
+}
+.submit{
+    display: inline;
+    height: 20px;
+    width: 70px;
+    
+}
+.logo{
+    display: flex;
+}
+.wordmark{
+    top: 0;
+    left: 0%;
+    display: block;
+    margin-left: 0px;
+}
+.tagline{
+    top: 0;
+    left: 0%;
+    display: block;
+    margin-top: -20px;
+}
+form{
+    margin-left: 400px;
+    margin-top: -5px;
+}
