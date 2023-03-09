@@ -62,3 +62,6 @@
     min-height: 70%;
     /* flex-direction: column; */
 }
+.class1 .class2{
+    display: none;
+}

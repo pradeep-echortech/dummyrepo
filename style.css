@@ -1,23 +1,29 @@
-.flex-container{
-display: flex;
-flex-wrap: wrap;
-font-size: 30px;
-text-align: center;
+.flexContainer {
+
+    background-color: green;
+    width: 100%;
+    overflow-x: scroll;
 }
-.flex-left{
-    background-color: darkcyan;
-    flex: 30%;
+.vv{
+    display: flex;
+    
 }
-.flex-center{
+.bdy {
+    width: 100%;
+    background-color: yellow;
+}
+
+.flex-left {
+
+    width: 1000px;
+}
+
+.flex-center {
     background-color: #ababab;
-    flex: 40%;
+    width: 1500px;
 }
-.flex-right{
+
+.flex-right {
     background-color: lightblue;
-    flex: 30%;
-}
-@media (max-width:800px) {
-    .flex-left,.flex-center,.flex-right  {
-        flex: 100%;
-    }
+    width: 2000px;
 }
