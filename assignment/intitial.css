@@ -1,0 +1,48 @@
+* {
+    /* box-sizing: border-box; */
+}
+.container {
+    display: flex;
+    /* display: block; */
+    position: absolute;
+    /* border: 1px solid black; */
+    flex-direction: row;
+    padding: 30px;
+    /* background-color: cadetblue; */
+    width: 35%;
+    text-align: center;
+    transform: rotate(30deg);
+    margin-top: 10%;
+}
+.common {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    /* transform: rotate(-30deg); */
+}
+
+.one {
+    background-color: blue;
+
+}
+
+.two {
+    /* margin-top: -80px;
+    float: right; */
+    background-color: aqua;
+}
+
+.three {
+    background-color: brown;
+
+}
+
+.four {
+    background-color: darkorange;
+    /* float: right;
+    margin-top: -80px; */
+}

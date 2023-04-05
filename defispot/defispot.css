@@ -17,7 +17,7 @@
 
 .header img {
     float: left;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 8%;
     margin-right: 13%;
     width: 150px;
@@ -122,8 +122,6 @@
     background-color: #fff;
     margin-left: 10%;
     border-radius: 15px;
-    /* text-align: justify; */
-     /* justify-content: center;*/
 
 }
 
@@ -153,21 +151,33 @@ td {
 
 
 .table table {
-    width: 100%;
-    overflow-x: scroll;
-
+    width: 1220px;
 }
 
 .table table tr {
     border-bottom: 1px outset grey;
 }
-.fcol{
-    /* position: absolute;
-     width: 5em;
-        left: 0;
-        top: auto; */
+
+.table {
+    overflow-x: scroll;
+    overflow-y: visible;
+   
+    
 }
-.ocol{
+::-webkit-scrollbar{
+    display: none;
+}
+
+.fcol {
+    position: sticky;
+    width: 20%;
+    left: 0;
+    top: auto;
+    opacity: 1;
+    background-color: #fff;
+}
+
+.ocol {
     
 }
 

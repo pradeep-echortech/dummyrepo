@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Media-Query</title>
+    <style>
+        * {
+            background-color: coral;
+            box-sizing: border-box;
+            background-image: linear-gradient(to right bottom, royalblue,black);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+           
+        }
+
+        .column {
+            padding: 30px;
+            flex: 25%;
+            text-align: center;
+        }
+        @media  (max-width: 950px) {
+            .column{
+                flex: 50%;
+            }
+            *{
+                background-color: lightgoldenrodyellow;
+            }
+        }
+        @media (max-width: 600px) {
+            .container{
+                flex-direction: column;
+            }
+            *{
+                background-color: lightseagreen;            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="column" style="background-color: royalblue;">
+            <h1>One</h1>
+            
+        </div>
+        <div class="column" style="background-color: palegreen;">
+            <h1>Two</h1>
+        </div>
+        <div class="column" style="background-color: tan;">
+            <h1>Three</h1>
+        </div>
+        <div class="column" style="background-color: turquoise;">
+            <h1>Four</h1>
+        </div>
+    </div>
+</body>
+
+</html>
